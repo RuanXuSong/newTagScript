@@ -13,5 +13,7 @@
 
 (function () {
   const linkList = document.getElementsByTagName('a');
-  Array.from(linkList).forEach((item) => item.setAttribute('target', '_blank'));
+  Array.prototype.forEach.call(linkList, (item) =>
+    item.setAttribute('target', '_blank')
+  );
 })();
