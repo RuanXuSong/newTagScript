@@ -8,7 +8,6 @@
 // @match        https://*/*
 // @license      MIT
 // @grant        none
-// @require      https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js
 // ==/UserScript==
 
 (function () {
